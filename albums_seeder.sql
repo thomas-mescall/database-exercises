@@ -1,4 +1,5 @@
 USE codeup_test_db;
+    TRUNCATE TABLE albums;
     INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('michael jackson','Thriller','1982','51.2','Pop, post-disco, funk, rock');
 INSERT INTO albums (artist, name, release_date, sales, genre)
