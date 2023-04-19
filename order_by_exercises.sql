@@ -9,11 +9,13 @@ WHERE (
         OR first_name = 'Maya'
         OR first_name = 'Vidya'
     )
-  AND gender = 'm';
+  AND gender = 'm'
+ORDER BY last_name;
 
 SELECT *
 FROM employees
-WHERE last_name LIKE 'E%';
+WHERE last_name LIKE 'E%'
+ORDER BY emp_no DESC;
 
 SELECT *
 FROM employees
